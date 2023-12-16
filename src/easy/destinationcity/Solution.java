@@ -1,4 +1,4 @@
-package destinationcity;
+package easy.destinationcity;
 
 import java.util.HashMap;
 import java.util.List;
