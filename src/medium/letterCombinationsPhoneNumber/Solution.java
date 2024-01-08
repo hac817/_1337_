@@ -23,6 +23,8 @@ class Solution {
         possibleLetters.put('9', List.of('w','x','y', 'z'));
 
         List<String> retList = new ArrayList<>();
+        if (digits.length() == 0) return retList;
+
         letterCombinations(digits, 0, new StringBuilder(), retList);
 
         return retList;
